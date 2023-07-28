@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  CodeLayout1
+//  CodeLayout2(Xylophon)
 //
-//  Created by Artem on 25.07.2023.
+//  Created by Artem on 28.07.2023.
 //
 
 import UIKit
@@ -13,12 +13,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
         window?.rootViewController = ViewController()
         window?.makeKeyAndVisible()
     }
+
+
 
 }
 
